@@ -2,6 +2,7 @@ import { useState } from 'react'
 
 import './App.css'
 import Lista from './components/Membership/Lista'
+import CreateAdmin from './components/Membership/admin'
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
     <>
       <div>
         <Lista/>
+        <CreateAdmin/>
       </div>
     </>
   )

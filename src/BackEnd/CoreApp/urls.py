@@ -20,5 +20,7 @@ from ListaApp.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/Lista/',  ListaListCreateAPIView.as_view() , name="list" )
+    path('api/Lista/',  ListaListCreateAPIView.as_view() , name="list" ),
+    path('api/create-admin/', create_admin_user, name='create-admin'),
+
 ]
