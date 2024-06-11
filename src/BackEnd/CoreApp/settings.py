@@ -125,4 +125,5 @@ CORS_ALLOWS_CREDENTIALS = True
 
 CORS_ALLOWED_ORIGINS = [
    'http://localhost:5173',
+   'https://proyectoprueba-frontend.onrender.com'
 ]
